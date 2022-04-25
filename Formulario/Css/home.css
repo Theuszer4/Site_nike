@@ -1,0 +1,33 @@
+body {
+   background-image: url("../img/nikefundo3.jpg");   
+   background-size: 90%;
+   
+}
+
+#text1 {
+    color: white;
+    margin: auto;
+    margin-top: 3%;
+    margin-left: 40%;
+}
+
+#nav1 ul {
+    display: flex;
+}   
+
+#nav1 a {
+    text-decoration: none;
+    color: white; 
+    border: 1px solid white;
+    display: block;
+    background-color: rgb(29, 29, 29);
+    padding: 10px;
+    margin-right: 1%;
+    margin-top: 27px;
+}
+
+#nav1 a:hover {
+    background-color: white;
+    color: #040405;
+    border: 1px solid black;
+}

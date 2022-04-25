@@ -1,0 +1,33 @@
+#nav1 ul {
+    display: flex;
+}   
+
+#nav1 a {
+    text-decoration: none;
+    color: white; 
+    border: 1px solid white;
+    display: block;
+    background-color: rgb(29, 29, 29);
+    padding: 10px;
+    margin-right: 1%;
+    margin-top: 5px;
+}
+
+#map {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+img {
+    max-width: 8%;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+#nav1 a:hover {
+    background-color: white;
+    color: #040405;
+    border: 1px solid black;
+}

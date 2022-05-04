@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#imgfnd {
+
+   background-image: url("../img/nikefundo3.jpg");   
+   background-size: 100%;
+   width: 100vw;
+   height: 100vh;
+   background-position: center;
+}
+
+#text2 {
+    color: white;
+    margin: auto;
+    margin-top: 3%;
+}
+
+#nav1 ul {
+    display: flex;
+    list-style: none;
+}   
+
+#nav1 a {
+    text-decoration: none;
+    color: white; 
+    border: 1px solid white;
+    display: block;
+    background-color: rgb(29, 29, 29);
+    padding: 10px;
+    margin-left: 12px;
+    margin-top: 40px;
+    width: 150px;
+}
+
+#nav1 a:hover {
+    background-color: white;
+    color: #040405;
+    border: 1px solid black;
+}
+
+img {
+    margin-top: 40px;
+    margin-left: 80%;
+    width: 10%;
+}
+#body1 {
+    margin: 2em 5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    color: #040405;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+h1 legend {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+label, input {
+    display: block;
+}
+
+fieldset {
+    margin-bottom: 2em;
+    padding: 1em;
+}
+.cartao {
+    display: inline;
+}
+.preferencia {
+    display: inline;
+}
+
+#map {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#li{
+    width: 1000px;
+    margin: auto;
+}
+
+#body2 {
+    width: 1000px;
+    margin: auto;
+}
+
+#text {
+    width: 1500px;
+    margin: auto;
+    margin-top: 5%;
+    font-size: 170%;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#logo img {
+    margin-top: 40px;
+    margin-left: 80%;
+    width: 14%;
+}
+
+#div40 {
+    margin-top: 7%;
+}
+
+#div41 {
+    margin-top: 2%;
+}
+
+#map h1 {
+    margin: 5%;
+}
+
+#imgfnd #nav1 #submenu1 .submenu{
+    position: absolute;
+    display: none;
+}
+
+#imgfnd #nav1 #submenu1:hover .submenu{
+    display: block;
+}
+
+#imgfnd #nav1 #submenu1 .submenu a{
+    margin-top: 0px;
+}
